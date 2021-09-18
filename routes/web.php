@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\Main\Give;
+use App\Http\Livewire\Main\Vision;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('https://live.thetribeabuja.com');
 });
+
+Route::get('/give', Give::class);
+Route::get('/vision', Vision::class);
