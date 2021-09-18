@@ -19,5 +19,10 @@ Route::get('/', function () {
     return redirect('https://live.thetribeabuja.com');
 });
 
-Route::get('/give', Give::class);
-Route::get('/vision', Vision::class);
+Route::get('/give', function () {
+    return redirect('https://flutterwave.com/pay/thetribeabuja');
+});
+
+Route::get('/vision', function () {
+    return redirect('https://flutterwave.com/pay/visionbuilders');
+});
