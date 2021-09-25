@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\Main\Give;
+use App\Http\Livewire\Main\Online;
 use App\Http\Livewire\Main\Vision;
 use Illuminate\Support\Facades\Route;
 
@@ -15,14 +16,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return redirect('https://live.thetribeabuja.com');
-});
+});*/
 
-Route::get('/give', function () {
+/*Route::get('/give', function () {
     return redirect('https://flutterwave.com/pay/thetribeabuja');
-});
+});*/
 
 Route::get('/vision', function () {
     return redirect('https://flutterwave.com/pay/visionbuilders');
 });
+
+Route::get('/', Online::class);
+Route::get('/online', Online::class);
+Route::get('/give', Give::class);

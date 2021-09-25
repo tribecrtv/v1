@@ -11,6 +11,13 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <title>The Tribe Abuja</title>
 
+    <style>
+        .turbolinks-progress-bar {
+            visibility: hidden;
+        }
+
+    </style>
+
     @livewireStyles
 </head>
 

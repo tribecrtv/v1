@@ -1,4 +1,5 @@
 <div class="grid grid-rows-[1fr,auto]">
+
     <div>
         <!-- Top bar -->
         <div class="grid grid-cols-1 bg-black p-6">
@@ -135,7 +136,7 @@
         </div>
 
         <div class="bg-center md:bg-cover bg-no-repeat"
-            style='background-image: url("https://ik.imagekit.io/et8vxrzxxdj/tribe/give_ZXx54Mqku.jpg");'>
+            style='background-image: url("https://ik.imagekit.io/et8vxrzxxdj/tribe/bg_dLJ10V51Z.jpg");'>
             <!-- NavBar -->
             <div class="grid grid-cols-1 p-8">
                 <div class="grid grid-cols-2 lg:grid-cols-3">
@@ -158,11 +159,12 @@
                             <!--<a href="#"> <span class="hover:border-b-2 border-black pb-1">Our Story</span> </a>-->
                             <a href="/online"> <span class="hover:border-b-2 border-black pb-1"> Online </span>
                             </a>
+                            <!--<a href="#"> <span class="hover:border-b-2 border-black pb-1">Gatherings</span> </a>-->
                             <a href="https://medium.com/thetribestories" target="blank">
                                 <span class="hover:border-b-2 border-black pb-1">Blog</span>
                             </a>
-                            <!--<a href="#"> <span class="hover:border-b-2 border-black pb-1">Gatherings</span> </a>-->
                             <a href="/give"> <span class="hover:border-b-2 border-black pb-1">Give</span> </a>
+
                         </div>
                     </div>
                     <div class="grid place-items-end">
@@ -202,129 +204,253 @@
                             </a>
 
                         </div>
+
                     </div>
                 </div>
             </div>
 
             <div class="grid grid-cols-1 mt-20 pb-28">
                 <div class="place-self-center md:w-2/3 lg:w-2/3">
-                    <div class="md:text-9xl text-6xl p-8 md:p-0 tracking-tight text-white">Giving & Generosity</div>
+                    <div class="md:text-9xl text-6xl p-8 md:p-0 tracking-tight text-white">Know God Make Him Known <span
+                            class="font-bold text-white">Online.</span></div>
                 </div>
             </div>
+
+
         </div>
 
         <!-- Body -->
         <div class="grid grid-cols-1 md:space-y-16 mt-20">
             <!--<div class="place-self-center md:w-2/3 lg:w-2/3">
-    <div class="text-9xl tracking-tight">Know God Make Him Known <span class="font-bold text-black">Online.</span></div>
-  </div>-->
+                    <div class="text-9xl tracking-tight">Know God Make Him Known <span class="font-bold text-black">Online.</span></div>
+                </div>-->
 
-            <!--Give to the Vision-->
-            <div class="place-self-center md:w-2/3 lg:w-2/3">
-                <div class="font-bold tracking-tight text-7xl p-10 md:p-0 md:pb-10">Give to the Vision.</div>
+            <div class="place-self-center md:w-2/3 lg:w-2/3 md:mb-0 mb-16">
+                <div class="grid grid-cols-2 md:rounded-2xl border-r-0 border-l-0 md:border-r-4 md:border-l-4 border-4">
+                    <div class="border-r-4">
+                        <div class="p-10 space-y-1">
+                            <div class="font-bold tracking-tight md:text-3xl">Tribe Online</div>
+                            <a href="https://live.thetribeabuja.com/" target="blank">
+                                <button
+                                    class="text-gray-500 border-b-2 md:space-x-1 flex items-center md:text-lg hover:text-gray-900 hover:border-black">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="hidden md:block h-4 w-4 transform rotate-90 text-red-800"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-bold text-red-600 md:text-black">Watch Now</span>
 
-                <div class="grid md:rounded-2xl bg-gray-100">
-                    <div class="p-10 space-x-7">
-                        <div class="text-3xl tracking-tight">At the Tribe we believe in giving freely, willing and
-                            cheerfully. We also believe in radical generosity to meet the needs of our community and
-                            beyond.</div>
-                        <a href="https://flutterwave.com/pay/thetribeabuja" target="blank">
+                                </button>
+                            </a>
+                            <div class="tracking-tight">10:00 AM GMT +1</div>
+                        </div>
+                    </div>
+
+                    <div class="p-10 space-y-1">
+                        <div class="font-bold tracking-tight md:text-3xl">Growth Track Online</div>
+                        <a href="#">
                             <button
-                                class="text-black border-b-2 space-x-1 flex items-center md:text-3xl md:font-bold hover:text-red-600 hover:border-gray-300 border-red-600">
-                                <span>Give Now</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="hidden md:block h-6 w-6" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                class="text-gray-500 border-b-2 space-x-1 flex items-center text-lg hover:text-blue-900 hover:border-blue-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                                        clip-rule="evenodd" />
                                 </svg>
+                                <span>ZOOM</span>
                             </button>
                         </a>
+                        <div class="tracking-tight">12:30 PM GMT +1</div>
                     </div>
                 </div>
             </div>
 
-            <!--Become a Vision Builder
+            <!--I have decided-->
             <div class="place-self-center md:w-2/3 lg:w-2/3">
-                <div class="font-bold tracking-tight text-7xl p-10 md:p-0 md:pb-10">Become a Vision Builder
-                    &nbsp;<span>&#127959;</span></div>
+                <div class="grid md:rounded-2xl bg-gray-100 bg-cover"
+                    style="background-image: url(&quot;https://ik.imagekit.io/et8vxrzxxdj/tribe/1_xKm1TDLnD.jpg?updatedAt=1632582829577&quot;);">
+                    <div class="p-10 space-y-3">
+                        <div class="font-bold tracking-tight text-3xl md:text-7xl text-white">I Have Decided.</div>
 
-                <div class="grid md:rounded-2xl bg-gray-100">
-                    <div class="p-10">
-                        <div class="text-3xl tracking-tight space-y-9">
-                            <div>You’re invited to be a part of the vision. The time is now more than ever to reach
-                                Abuja with the truth & love of Christ. Join us in building the vision in Abuja and
-                                beyond.</div>
-                            <div><span class="bg-red-800 pr-2 pl-2 pb-1 text-white">Vision Builders</span> provides an
-                                opportunity for anyone and everyone who calls The Tribe Abuja home to invest in our
-                                church’s current & future projects and facility needs and contribute to our initiatives.
-                                If you have a conviction to advance the Kingdom of God through your financial
-                                generosity, we invite you to consider becoming a part of our community of Vision
-                                Builders.</div>
-                            <div>Through the sacrificial generosity of many, Vision Builders enables the practical
-                                building of God's house and outworking of the Father’s heart for our city and beyond.
-                            </div>
-                        </div>
+                        <div class="tracking-tight text-white">Follow Jesus &mdash; Be With Jesus &mdash; Become Like
+                            Jesus &mdash; Do What Jesus Did</div>
+
+                        <button type="button"
+                            class="bg-rose-600 text-white border-4 border-white pr-3 pl-3 p-2 rounded-full tracking-tight font-extrabold flex space-x-2"
+                            disabled>
+                            <span>I Decided!</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </button>
                     </div>
+                </div>
+            </div>
 
-                    <div class="p-10 space-x-7 border-t-4 border-black">
-                        <div class="max-w-full">
-                            <div class="space-y-10">
-                                <label class="block">
-                                    <div class="text-black text-3xl tracking-tight font-bold">I am pledging to give
-                                    </div>
-                                    <input type="text" placeholder="₦"
-                                        class="text-3xl mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-black"
-                                        placeholder="" />
-                                </label>
+            <!--Connect-->
+            <div class="place-self-center md:w-2/3 lg:w-2/3">
+                <div class="grid md:rounded-2xl bg-gray-100">
+                    <div class="p-10 space-y-3">
+                        <div class="font-bold tracking-tight text-3xl md:text-7xl">Connect at Tribe.</div>
 
-                                <label class="block md:flex items-center md:space-x-5">
-                                    <span class="text-black text-3xl tracking-tight font-bold">Every</span>
-                                    <select
-                                        class="text-2xl block w-full mt-0 px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 bg-gray-100 focus:border-black">
-                                        <option>Select</option>
-                                        <option>Week</option>
-                                        <option>Month</option>
-                                        <option>Quarter</option>
-                                    </select>
-                                </label>
+                        <div class="text-3xl tracking-tight">Join the movement!<span
+                                class="animate-ping">&#9889;</span></div>
 
-                                <label class="block">
-                                    <div class="text-black text-3xl tracking-tight font-bold">Fullname</div>
-                                    <input type="text"
-                                        class="text-3xl mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-black"
-                                        placeholder="" />
-                                </label>
-
-                                <label class="block">
-                                    <div class="text-black text-3xl tracking-tight font-bold">Email</div>
-                                    <input type="text"
-                                        class="text-3xl mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-black"
-                                        placeholder="" />
-                                </label>
-
-                                <label class="block">
-                                    <div class="text-black text-3xl tracking-tight font-bold">Phone</div>
-                                    <input type="text"
-                                        class="text-3xl mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 bg-gray-100 focus:ring-0 focus:border-black"
-                                        placeholder="" />
-                                </label>
-
-                                <button
-                                    class="border-4 font-bold rounded-full text-3xl pr-6 pl-6 pt-2 pb-2 text-red-600 border-red-600 hover:border-white hover:bg-red-600 hover:text-white flex space-x-3">
-                                    <div>Pledge</div>
+                        <div>
+                            <a href="https://thetribeabuja.typeform.com/to/Efc7ch" target="blank">
+                                <button type="button"
+                                    class="bg-rose-600 text-black border-4 border-black pr-3 pl-3 p-2 rounded-full tracking-tight font-extrabold flex space-x-2"
+                                    disabled>
+                                    <span>Connect</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                            d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                    </svg>
                                 </button>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>-->
+            </div>
 
+            <!-- Watch and Listen -->
+            <div class="place-self-center md:w-2/3 lg:w-2/3 md:border-none border-t-2">
+                <div class="grid grid-cols-2 md:rounded-2xl bg-gray-100">
+                    <div class="border-r-2">
+                        <div class="p-10 space-y-3">
+                            <div class="font-bold tracking-tight text-2xl">Youtube</div>
+                            <div class="items-center text-sm md:text-lg tracking-tight">Watch our latest sermons and
+                                content
+                                from
+                                The Tribe Abuja.</div>
+
+                            <div>
+                                <a href="http://youtube.com/thetribeabuja" target="blank">
+                                    <button
+                                        class="text-gray-500 border-b-2 space-x-1 flex items-center text-lg hover:text-gray-900 hover:border-black">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-600"
+                                            viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <span>Youtube</span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-10 space-y-3">
+                        <div class="font-bold tracking-tight text-2xl">Listen</div>
+                        <div class="items-center text-sm md:text-lg tracking-tight">Listen to our podcast updated
+                            weekly.</div>
+
+                        <div class="tracking-tight flex items-center space-x-4">
+                            <a href="https://itunes.apple.com/us/podcast/the-tribe-abuja/id1447100125?mt=2&uo=4"
+                                target="blank">
+                                <svg class="h-4 text-black" fill="currentColor" viewBox="0 0 256 315">
+                                    <path
+                                        d="M213.803394,167.030943 C214.2452,214.609646 255.542482,230.442639 256,230.644727 C255.650812,231.761357 249.401383,253.208293 234.24263,275.361446 C221.138555,294.513969 207.538253,313.596333 186.113759,313.991545 C165.062051,314.379442 158.292752,301.507828 134.22469,301.507828 C110.163898,301.507828 102.642899,313.596301 82.7151126,314.379442 C62.0350407,315.16201 46.2873831,293.668525 33.0744079,274.586162 C6.07529317,235.552544 -14.5576169,164.286328 13.147166,116.18047 C26.9103111,92.2909053 51.5060917,77.1630356 78.2026125,76.7751096 C98.5099145,76.3877456 117.677594,90.4371851 130.091705,90.4371851 C142.497945,90.4371851 165.790755,73.5415029 190.277627,76.0228474 C200.528668,76.4495055 229.303509,80.1636878 247.780625,107.209389 C246.291825,108.132333 213.44635,127.253405 213.803394,167.030988 M174.239142,50.1987033 C185.218331,36.9088319 192.607958,18.4081019 190.591988,0 C174.766312,0.636050225 155.629514,10.5457909 144.278109,23.8283506 C134.10507,35.5906758 125.195775,54.4170275 127.599657,72.4607932 C145.239231,73.8255433 163.259413,63.4970262 174.239142,50.1987249">
+                                    </path>
+                                </svg>
+                            </a>
+
+                            <a href="https://open.spotify.com/show/5gF11b5BCovX5S9RpE1BOr" target="blank">
+                                <svg class="h-6 text-green-500" fill="currentColor"
+                                    viewBox="-33.4974 -55.829 290.3108 334.974">
+                                    <path
+                                        d="M177.707 98.987c-35.992-21.375-95.36-23.34-129.719-12.912-5.519 1.674-11.353-1.44-13.024-6.958-1.672-5.521 1.439-11.352 6.96-13.029 39.443-11.972 105.008-9.66 146.443 14.936 4.964 2.947 6.59 9.356 3.649 14.31-2.944 4.963-9.359 6.6-14.31 3.653m-1.178 31.658c-2.525 4.098-7.883 5.383-11.975 2.867-30.005-18.444-75.762-23.788-111.262-13.012-4.603 1.39-9.466-1.204-10.864-5.8a8.717 8.717 0 015.805-10.856c40.553-12.307 90.968-6.347 125.432 14.833 4.092 2.52 5.38 7.88 2.864 11.968m-13.663 30.404a6.954 6.954 0 01-9.569 2.316c-26.22-16.025-59.223-19.644-98.09-10.766a6.955 6.955 0 01-8.331-5.232 6.95 6.95 0 015.233-8.334c42.533-9.722 79.017-5.538 108.448 12.446a6.96 6.96 0 012.31 9.57M111.656 0C49.992 0 0 49.99 0 111.656c0 61.672 49.992 111.66 111.657 111.66 61.668 0 111.659-49.988 111.659-111.66C223.316 49.991 173.326 0 111.657 0" />
+                                </svg>
+                            </a>
+
+                            <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy84ZWY4MWY0L3BvZGNhc3QvcnNz"
+                                target="blank">
+                                <svg class="h-5" viewBox="0 0 512 512">
+                                    <g fill="none">
+                                        <path
+                                            d="M64 238.545v34.91c0 17.673-14.327 32-32 32s-32-14.327-32-32v-34.91c0-17.673 14.327-32 32-32s32 14.327 32 32z"
+                                            fill="#0066d9" />
+                                        <path
+                                            d="M448.013 239.455a32.6 32.6 0 0 1-.013-.91c0-17.673 14.327-32 32-32s32 14.327 32 32c0 .304-.004.608-.013.91H512v34.909h-.013c-.48 17.252-14.618 31.09-31.987 31.09s-31.506-13.838-31.987-31.09H448v-34.91h.013z"
+                                            fill="#4285f4" />
+                                        <path
+                                            d="M174.545 343.273v34.909c0 17.673-14.326 32-32 32s-32-14.327-32-32v-34.91c0-17.672 14.327-32 32-32s32 14.328 32 32zM174.545 133.818V248h-.008c-.386 17.337-14.562 31.273-31.992 31.273S110.94 265.337 110.554 248h-.009V133.818c0-17.673 14.327-32 32-32s32 14.327 32 32z"
+                                            fill="#ea4335" />
+                                        <path
+                                            d="M337.455 168.727c0 17.673 14.326 32 32 32s32-14.327 32-32v-34.909c0-17.673-14.327-32-32-32s-32 14.327-32 32z"
+                                            fill="#34a853" />
+                                        <path
+                                            d="M224 66.91c0 17.672 14.327 32 32 32s32-14.328 32-32V32c0-17.673-14.327-32-32-32s-32 14.327-32 32zM224 445.09c0-17.672 14.327-32 32-32s32 14.328 32 32V480c0 17.673-14.327 32-32 32s-32-14.327-32-32z"
+                                            fill="#fab908" />
+                                        <path
+                                            d="M337.455 264.727c0-17.673 14.326-32 32-32s32 14.327 32 32v113.455c0 17.673-14.327 32-32 32s-32-14.327-32-32z"
+                                            fill="#34a853" />
+                                        <path
+                                            d="M288 162.91v186.18c0 17.674-14.327 32-32 32s-32-14.326-32-32V162.91c0-17.674 14.327-32 32-32s32 14.326 32 32z"
+                                            fill="#fab908" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Ways to Give-->
+            <div class="place-self-center md:w-2/3 lg:w-2/3">
+                <div class="font-bold tracking-tight text-3xl md:text-7xl p-10 md:p-0 md:pb-10">Ways to Give.</div>
+
+                <div class="grid grid-cols-2 md:rounded-2xl bg-gray-100">
+                    <div class="border-r-2">
+                        <div class="p-10 space-y-4">
+                            <div class="font-bold tracking-tight md:text-2xl ">We give because we've been given.
+                                Generosity
+                                is our priviledge.
+                            </div>
+
+                            <div>
+                                <a href="https://flutterwave.com/pay/thetribeabuja" target="blank">
+                                    <button
+                                        class="text-black border-b-2 space-x-1 flex items-center md:text-3xl md:font-bold hover:text-red-600 hover:border-gray-300 border-red-600">
+                                        <span>Give Now</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="hidden md:block h-6 w-6"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                        </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-10 space-y-1">
+                        <div class="font-bold tracking-tight text-2xl border-b-2 border-black pb-1">Transfer</div>
+                        <div class="items-center md:text-lg tracking-tight"><span class="font-bold">Zenith
+                                Bank</span> (The Tribe Assembly)</div>
+                        <div class="items-center mdtext-lg tracking-tight"><span class="font-bold">NGN</span>
+                            &nbsp; <span class="tracking-wider">1016052982<span< /div>
+                                    <div class="items-center text-lg tracking-tight"><span
+                                            class="font-bold">USD</span> &nbsp; <span
+                                            class="tracking-wider">5071308426</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
     <div class="grid grid-cols-1 mt-32 bg-black">
         <div class="p-8">
             <div class="grid grid-cols-2">
+
                 <div class="self-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 413.31 370.42"
                         class="h-10 text-white self-center" fill="currentColor">
@@ -338,9 +464,12 @@
                     </svg>
                 </div>
 
-                <div class="text-white self-center place-self-end text-xs font-bold tracking-tight">&copy; The Tribe
-                    Abuja 2021</div>
+                <div class="text-white self-center place-self-end text-xs font-bold tracking-tight">
+                    &copy; The Tribe Abuja 2021
+                </div>
+
             </div>
         </div>
     </div>
+
 </div>
