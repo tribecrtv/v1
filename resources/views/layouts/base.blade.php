@@ -22,8 +22,17 @@
 </head>
 
 <body>
+    <div class="grid grid-rows-[1fr,auto]">
+        <div>
 
-    {{ $slot }}
+            @include('layouts.topbar')
+
+            {{ $slot }}
+
+        </div>
+
+        @include('layouts.footer')
+    </div>
 
     @livewireScripts
 </body>
