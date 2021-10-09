@@ -1,5 +1,6 @@
  <!-- Top bar -->
- <div class="grid grid-cols-1 bg-black p-6" x-data="{ sidebarOpen: false }" @keydown.window.escape="sidebarOpen = false">
+ <div class="grid grid-cols-1 bg-gray-100 p-6" x-data="{ sidebarOpen: false }"
+     @keydown.window.escape="sidebarOpen = false">
      <!-- Off-canvas menu for mobile -->
      <div x-show="sidebarOpen" class="md:hidden" style="display: none;">
          <div class="fixed inset-0 flex z-40">
@@ -51,7 +52,7 @@
                              class="group text-wider text-5xl tracking-tighter flex items-center px-2 py-2 text-base leading-6 font-medium text-white focus:outline-none focus:bg-gray-700 transition ease-in-out duration-150">
                              Online
                          </a>
-                         <a href="/vision" target="blank"
+                         <a href="/vision"
                              class="group text-wider text-5xl tracking-tighter flex items-center px-2 py-2 text-base leading-6 font-medium text-white focus:outline-none focus:bg-gray-700 transition ease-in-out duration-150">
                              Vision
                          </a>
@@ -201,7 +202,7 @@
      <div class="grid grid-cols-2">
          <div class="lg:hidden cursor-pointer">
              <button @click.stop="sidebarOpen = true">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 animate-pulse text-white" fill="none"
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 animate-pulse text-black" fill="none"
                      viewBox="0 0 24 24" stroke="currentColor">
                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
                  </svg>
@@ -209,7 +210,7 @@
          </div>
 
          <div class="hidden lg:flex space-x-10 items-center">
-             <div class="text-white tracking-tight flex items-center space-x-1">
+             <div class=tracking-tight flex items-center space-x-1">
                  <a href="#">
                      <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-6" viewBox="0 0 83.04 38.61">
                          <polygon class="cls-1"
@@ -243,7 +244,7 @@
                  </a>
              </div>
 
-             <div class="text-white tracking-tight flex items-center space-x-1">
+             <div class=tracking-tight flex items-center space-x-1">
                  <a href="#">
                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 fill-current" viewBox="0 0 51.85 38.61">
                          <g id="Layer_2" data-name="Layer 2">
@@ -270,7 +271,7 @@
                  </a>
              </div>
 
-             <div class="text-white tracking-tight">
+             <div class=tracking-tight">
                  <a href="#">
                      <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-6" viewBox="0 0 55.72 38.64">
                          <polygon class="cls-1"
@@ -297,7 +298,7 @@
                  </a>
              </div>
 
-             <div class="text-white tracking-tight flex items-center space-x-1">
+             <div class=tracking-tight flex items-center space-x-1">
                  <a href="#">
                      <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-current" viewBox="0 0 118.12 10.16">
                          <path class="cls-1"
@@ -328,7 +329,7 @@
          <div class="place-self-end">
              <a href="https://bit.ly/thetribeabuja" target="blank">
                  <div
-                     class="border-4 text-white hover:border-gray-200 p-3 rounded-full tracking-tight font-extrabold cursor-pointer">
+                     class="border-4 text-black hover:border-black border-gray-200 p-3 rounded-full tracking-tight font-extrabold cursor-pointer">
                      <div class="flex space-x-1 items-center text-sm">
                          <span>Subscribe</span>
                      </div>

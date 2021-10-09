@@ -2,9 +2,9 @@
 <div class="bg-center md:bg-cover bg-no-repeat"
     style='background-image: url("https://ik.imagekit.io/et8vxrzxxdj/tribe/give_ZXx54Mqku.jpg");'>
     <!-- NavBar -->
-    <div class="grid grid-cols-1 p-8">
+    <div class="grid grid-cols-1">
         <div class="grid grid-cols-2 lg:grid-cols-3">
-            <div class="grid place-items-start">
+            <div class="grid place-items-start pl-8">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 413.31 370.42" class="h-10 text-white self-center"
                     fill="currentColor">
                     <path
@@ -19,7 +19,7 @@
 
             @include('layouts.navigation')
 
-            <div class="grid place-items-end">
+            <div class="grid place-items-end pr-8">
                 <div class="grid grid-cols-3 gap-3 self-center">
                     <a href="https://instagram.com/thetribeabuja" target="blank">
                         <svg viewbox="0 0 512 512" class="h-8 text-white" fill="currentColor">
@@ -77,22 +77,45 @@
     <div class="place-self-center md:w-2/3 lg:w-2/3">
         <div class="font-bold tracking-tight text-7xl p-10 md:p-0 md:pb-10">Give to the Vision.</div>
 
-        <div class="grid md:rounded-2xl bg-gray-100">
-            <div class="p-10 space-x-7">
-                <div class="text-3xl tracking-tight">At the Tribe we believe in giving freely, willingly and
-                    cheerfully. We also believe in radical generosity to meet the needs of our community and
-                    beyond.</div>
-                <a href="https://flutterwave.com/pay/thetribeabuja" target="blank">
-                    <button
-                        class="text-black border-b-2 text-2xl space-x-1 flex items-center md:text-3xl font-bold hover:text-red-600 hover:border-gray-300 border-red-600">
-                        <span>Give Now</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                        </svg>
-                    </button>
-                </a>
+        <div class="tracking-tight text-xl p-10 md:p-0 md:pb-10">At the Tribe we believe in giving freely,
+            willingly and
+            cheerfully. We also believe in radical generosity to meet the needs of our community and
+            beyond.</div>
+
+
+        <div class="grid grid-cols-2 md:rounded-2xl bg-gray-100">
+            <div class="border-r-2">
+                <div class="p-10 space-y-4">
+                    <div class="font-bold tracking-tight md:text-2xl ">We give because we've been given.
+                        Generosity
+                        is our priviledge.
+                    </div>
+
+                    <div>
+                        <a href="https://flutterwave.com/pay/thetribeabuja" target="blank">
+                            <button
+                                class="text-black border-b-2 space-x-1 flex items-center md:text-3xl font-bold hover:text-red-600 hover:border-gray-300 border-red-600">
+                                <span>Give Now</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="hidden md:block h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-10 space-y-1">
+                <div class="font-bold tracking-tight text-2xl border-b-2 border-black pb-1">Transfer</div>
+                <div class="items-center md:text-lg tracking-tight"><span class="font-bold">Zenith
+                        Bank</span> (The Tribe Assembly)</div>
+                <div class="items-center mdtext-lg tracking-tight"><span class="font-bold">NGN</span>
+                    &nbsp; <span class="tracking-wider">1016052982<span< /div>
+                            <div class="items-center text-lg tracking-tight"><span class="font-bold">USD</span>
+                                &nbsp; <span class="tracking-wider">5071308426</span></div>
+                </div>
             </div>
         </div>
     </div>

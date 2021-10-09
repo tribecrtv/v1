@@ -2,9 +2,9 @@
 <div class="bg-center md:bg-cover bg-no-repeat"
     style='background-image: url("https://ik.imagekit.io/et8vxrzxxdj/tribe/mock2_54GmJqfoj.jpg");'>
     <!-- NavBar -->
-    <div class="grid grid-cols-1 p-8">
+    <div class="grid grid-cols-1">
         <div class="grid grid-cols-2 lg:grid-cols-3">
-            <div class="grid place-items-start">
+            <div class="grid place-items-start pl-8">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 413.31 370.42" class="h-10 text-white self-center"
                     fill="currentColor">
                     <path
@@ -19,7 +19,7 @@
 
             @include('layouts.navigation')
 
-            <div class="grid place-items-end">
+            <div class="grid place-items-end pr-8">
                 <div class="grid grid-cols-3 gap-3 self-center">
                     <a href="https://instagram.com/thetribeabuja" target="blank">
                         <svg viewbox="0 0 512 512" class="h-8 text-white" fill="currentColor">
@@ -67,7 +67,6 @@
                     class="font-bold text-white">Online.</span></div>
         </div>
     </div>
-
 
 </div>
 

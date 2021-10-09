@@ -24,10 +24,12 @@ use Illuminate\Support\Facades\Route;
     return redirect('https://flutterwave.com/pay/thetribeabuja');
 });*/
 
-Route::get('/vision', function () {
-    return redirect('https://flutterwave.com/pay/visionbuilders');
+Route::get('/vision', Vision::class);
+
+Route::get('/', function () {
+    return view('welcome');
 });
 
-Route::get('/', Online::class);
+Route::get('/vision', Vision::class);
 Route::get('/online', Online::class);
 Route::get('/give', Give::class);
