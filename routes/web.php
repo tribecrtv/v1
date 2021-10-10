@@ -20,9 +20,9 @@ use Illuminate\Support\Facades\Route;
     return redirect('https://live.thetribeabuja.com');
 });*/
 
-/*Route::get('/give', function () {
-    return redirect('https://flutterwave.com/pay/thetribeabuja');
-});*/
+Route::get('/connect', function () {
+    return redirect('https://thetribeabuja.typeform.com/to/Efc7ch');
+});
 
 Route::get('/vision', Vision::class);
 
