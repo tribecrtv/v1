@@ -110,7 +110,7 @@
 
                 <div class="grid grid-cols-1 mt-20">
                     <div class="grid place-self-center">
-                        <a href="https://www.youtube.com/watch?v=cNcW3crNEOk" target="blank">
+                        <a href="https://www.youtube.com/watch?v=TQtYPgEs0Mk" target="blank">
                             <div
                                 class="hover:text-red-600 text-lg font-bold uppercase tracking-widest p-8 md:p-0 text-center md:flex grid place-items-center items-center space-x-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mb-3 md:mb-0" viewBox="0 0 20 20"
@@ -119,7 +119,7 @@
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
                                         clip-rule="evenodd" />
                                 </svg>
-                                <div>latest sermon &mdash; to build a nation w/ jesse dan yusuf</div>
+                                <div>New Sermon Series &mdash; By Faith w/ jesse dan yusuf</div>
                             </div>
                         </a>
                     </div>
