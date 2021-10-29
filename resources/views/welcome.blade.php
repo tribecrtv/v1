@@ -59,7 +59,7 @@
                                         Online </span>
                                 </a>
                                 <!--<a href="#"> <span class="hover:border-b-2 border-black pb-1">Gatherings</span> </a>-->
-                                <a href="https://medium.com/thetribestories" target="blank">
+                                <a href="https://medium.com/thetribeabuja" target="blank">
                                     <span class="hover:border-b-2 border-black pb-1">Blog</span>
                                 </a>
                                 <a href="/give"> <span

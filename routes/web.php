@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Main\Gatherings;
 use App\Http\Livewire\Main\Give;
 use App\Http\Livewire\Main\Online;
 use App\Http\Livewire\Main\Vision;
@@ -33,3 +34,4 @@ Route::get('/', function () {
 Route::get('/vision', Vision::class);
 Route::get('/online', Online::class);
 Route::get('/give', Give::class);
+Route::get('/gatherings', Gatherings::class);
