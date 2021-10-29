@@ -68,7 +68,7 @@
 </div>
 
 <!--Main-->
-<div class="grid grid-cols-1 md:space-y-20 md:mt-20">
+<div class="grid grid-cols-1 md:space-y-20 md:mt-20 mb-20">
     <!--<div class="place-self-center md:w-2/3 lg:w-2/3">
                     <div class="text-9xl tracking-tight">Know God Make Him Known <span class="font-bold text-black">Online.</span></div>
                 </div>-->
